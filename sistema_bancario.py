@@ -21,7 +21,6 @@ menu = '''
 [q] Sair
 => '''
 
-
 while True:
     opcao = input(menu)
     opcao = opcao.lower()
@@ -58,7 +57,6 @@ while True:
                     print("Valor inválido")
           except:
                print("Valor inválido")
-               
          
     elif opcao == 'e':
          print('\n*********** EXTRATO ***********')
